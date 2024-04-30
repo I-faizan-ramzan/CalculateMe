@@ -17,8 +17,15 @@
           <input
             type="text"
             class="form-control form-control-sm my-5"
-            placeholder="Enter Value "
+            placeholder="Enter $ "
             id="val"
+            required
+          />
+          <input
+            type="text"
+            class="form-control form-control-sm my-5"
+            placeholder="USD Rate "
+            id="drate"
             required
           />
           <input
@@ -29,10 +36,17 @@
             readonly
           />
           <input
+            type="text"
+            class="form-control form-control-sm my-3"
+            placeholder="Total Amount"
+            id="dres"
+            readonly
+          />
+          <input
             type="button"
             value="Find Result"
             class="form-control form-control-sm bg-danger text-warning"
-            onclick="getResult()"
+            id="btn"
           />
         </form>
       </div>
